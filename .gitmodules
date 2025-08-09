@@ -1,9 +1,6 @@
 [submodule "areas"]
 	path = areas
 	url = https://github.com/minetest-mods/areas.git
-[submodule "irc"]
-	path = irc
-	url = https://github.com/minetest-mods/irc.git
 [submodule "morelights"]
 	path = morelights
 	url = https://github.com/random-geek/morelights.git
@@ -208,3 +205,6 @@
 [submodule "automobiles_pck"]
 	path = automobiles_pck
 	url = https://github.com/APercy/automobiles_pck.git
+[submodule "irc"]
+	path = irc
+	url = https://github.com/minetest-mods/irc.git
