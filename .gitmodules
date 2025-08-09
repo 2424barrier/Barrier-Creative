@@ -157,9 +157,6 @@
 [submodule "vehicle_mash"]
 	path = vehicle_mash
 	url = https://github.com/minetest-mods/vehicle_mash
-[submodule "worldedit_hud_helper"]
-	path = worldedit_hud_helper
-	url = https://gitlab.com/sbrl/worldedit_hud_helper.git
 [submodule "celevator"]
 	path = celevator
 	url = https://cheapiesystems.com/git/celevator/
@@ -202,12 +199,12 @@
 [submodule "technic_adminnodes"]
 	path = technic_adminnodes
 	url = https://cheapiesystems.com/git/technic_adminnodes
-[submodule "jitprofiler"]
-	path = jitprofiler
-	url = https://github.com/TurkeyMcMac/jitprofiler
 [submodule "mineral"]
 	path = mineral
 	url = https://github.com/VE-Creative-Server/mineral
 [submodule "towercrane"]
 	path = towercrane
 	url = https://github.com/minetest-mods/towercrane
+[submodule "automobiles_pck"]
+	path = automobiles_pck
+	url = https://github.com/APercy/automobiles_pck.git
