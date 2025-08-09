@@ -1,28 +1,25 @@
-Mod of submodules of mods used on VE-Creative
-
-Note: It is preferable to *not* make updates directly on the VE-Creative server, and instead only
-pull in updates made elsewhere. Emergencies happen though, and cleaning things up isn't too hard.
+Mod of submodules of mods used on Barrier-Creative
 
 Installing Locally
 ==================
 
-1. `git clone https://github.com/VE-Creative-Server/worldmods.git`
+1. `git clone https://github.com/2424barrier/Barrier-Creative.git`
 2. `cd worldmods`
 3. `git submodule update --init --recursive`
 
-You may then wish to move the VE-C\_mods folder to `~/.minetest/mods` or `~/.minetest/worlds/NAME/worldmods` for testing. Example `minetest.conf` and `world.mt` files have been provided, though these may be out of date. You should copy these to the appropriate locations.
+You may then wish to move the B-C\_mods folder to `~/.minetest/mods` or `~/.minetest/worlds/NAME/worldmods` for testing. Example `minetest.conf` and `world.mt` files have been provided, though these may be out of date. You should copy these to the appropriate locations.
 
-Updating your VE-C\worldmods repo
+Updating your B-C\worldmods repo
 ============================
 
 1. `git pull`
 2. `git submodule sync --recursive`
 3. `git submodule update --recursive --init`
  
-Setting up your local VE-C\_mods repo to push updates
+Setting up your local B-C\_mods repo to push updates
 ====================================================
 
-1. `git remote add github git@github.com:VE-Creative-Server/worldmods.git`
+1. `git remote add github git@github.com:2424barrier/Barrier-Creative.git`
 
 Upgrading a subrepo
 ===================
@@ -53,7 +50,7 @@ Making changes inside a subrepo
 This is only for making changes to a repo or fork that you have write permissions to.
 
 1. `cd subrepo`
-2. e.g. `git remote add github git@github.com:VE-Creative-Server/....`
+2. e.g. `git remote add github git@github.com:2424barrier/....`
 3. make changes
 4. `git add changed_file`
 5. `git commit -m 'changed something'`
